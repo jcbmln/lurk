@@ -65,8 +65,8 @@ object AppConfig {
         }
 
         object Square {
-            private const val okhttpVersion = "4.7.2"
-            const val okhttp = "com.squareup.okhttp3:${okhttpVersion}"
+            private const val okhttpVersion = "4.9.0"
+            const val okhttp = "com.squareup.okhttp3:okhttp:${okhttpVersion}"
             const val okhttpMockWebserver = "com.squareup.okhttp3:mockwebserver:${okhttpVersion}"
 
             private const val retrofitVersion = "2.9.0"
@@ -80,7 +80,7 @@ object AppConfig {
 
         object Misc {
             const val timber = "com.jakewharton.timber:timber:4.7.1"
-            const val overlappingPanels = "com.github.discord:OverlappingPanels:0.1.2"
+            const val overlappingPanels = "com.github.discord:overlappingpanels:0.1.2"
         }
 
         object Tests {
